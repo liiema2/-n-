@@ -1,219 +1,1261 @@
 :root{
     --color:#35CD8C;
-
-}
-h1{
-    color: var(color)
+    --img:(img/Icon.png);
 }
 *{
-    box-sizing: border-box;
+    font-size:10px;
 }
 #header{
-   
-   
-    display: flex;
-    position: relative;
-}
-#header nav {
-    display: flex;
-    width:75%;
+    width:140.6rem;
+    height: 128.4rem;
     background-color: #FFF5EC;
-    height:1048px;
-}
-nav div {
-font-size: 72px;
-color: var(--color);
-margin-top: 20px;
-margin-left: 65px;
-}
-
-.header-container {
-    font-size:16px;
-  
     
-    margin-top: 67px;
-   margin-left: 200px;
 }
-.header-container a {
+.header_content{
+
+
+margin: 0 auto;
+
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header_name-log{
+   font-size:9rem;
+   color:var(--color);
+   margin-left: 13.3rem;
+   margin-top: 7rem;
+}
+.header_name nav ul{
+    display:flex;
     
-    text-decoration: none;
-    margin-right:40px;
 }
-.header-container-icon{
-    width: 25%;
- background-color: var(--color);
- display: flex;
-
-}
-
-.header-container-icon-use{
-    width: 52px;
-height: 52px;
-background-color: white;
-border-radius: 50%;
-text-align: center;
-margin-left: 230px;
-margin-top: 48px;
-position: relative;
-
-}
-.header-container-icon-use div{
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #31A24C;
-    position:absolute;
-    top:0;
-    right:0;
-}
-.header-container-icon-use i{
-    margin-top:11px;
-    width:30px;height:30px;
-    font-size: 30px;
-  
-}
-.header-container-icon-use_2{
-  
-margin-top: 67px;
-color:white;
-
-margin-left:9px;
-}
-.header-container-food {
-position:absolute;
-top: 238px;
-left:69px;
-font-size: 200px;
-color: #2E266F;
-opacity: 0.5;
-
-}
-.header-container-food_1{
-position:absolute;
-top: 426px;
-left:69px;
-font-size: 72px;
-color:#2E266F;
-
-}
-.header-container-img-background{
-    width: 738px;
-  
-    position: absolute;
-    top:176px;
+.header_name nav a{
+    text-decoration:none;
     
-    left:730px;
+}
+nav {
+    margin-top: 6.7rem;
+}
+.header_name{
+    display:flex;
+}
+ul{
+    list-style-type:none;
+    margin-left: 20rem;
+    margin-top: 0;
+}
+nav ul li a{
+    font-size:2rem;
+    justify-content: space-between;
+    margin-right: 5rem;
+    
+}
+nav li{
+    margin-top: 4.7rem;
+}
+#header_icon{
+width:51.4rem; 
+background-color:var(--color);
+
+
+}
+.main_header{
+   width:192rem;
+   display:flex;
+   position: relative;
+}
+.header_icon_uers{
+    display:flex;
+    width: 11.4rem;
+    height:5.2rem;
+    margin-left: 26.4rem;
+    margin-top: 9.6rem;
+    color:white;
+
+}
+.header-food-content-name div{ 
+    margin-top: 0.9rem;
+}
+.header_icon_uers i{
+   margin-top: 2rem;
+   font-size:2rem;
+   margin-left:1rem;
+   
+}
+.header_icon_uers P{
+   
+   font-size:2rem;
+   margin-left:1rem;
 }
 .header-img{
+   position:relative;
+   /* top:-1rem; */
+
+}
+.header_img_1{
     position:absolute;
- top:50px;
-  width: 46%;
-
+    top:-19.5rem;
+    left: 114rem;
 }
-
-.header-img img{
-    margin-right: 10px;
-    opacity: 0.5;
-    width:14%;
-}
-
-.header-img-last img{
-    margin-right: 10px;
-    opacity: 0.5;
-    width:14%;
-}
-
-.header-img-last{
+.header_img_2{
     position:absolute;
-    top:345px;
-    width: 46%;
+    top:10rem;
+    left: 100rem;
+   
+}
+
+.header_img_3{
+    position:absolute;
+    top:44rem;
+    left: 100rem;
+    
+}
+
+.header-img_item{
+    position:absolute;
+    top: 6rem;
+    left: 95rem;
+}
+.header-img_item_arrow{
+    position:absolute;
+    top: 100rem;
+    left: 161.3rem;
+}
+.header-food{
+    position:absolute;
+    top: 25.8rem;
+    left:12.4rem;
+    font-size:20rem;
+    color: #2E266F;
+    opacity: 0.05;
+   
+}
+.header-food-content  {
+    position:absolute;
+    top: 42.6rem;
+    left:12.4rem;
+    font-size:7.2rem;
+    color: #2E266F;
+    
+
+  
+}
+.header-food-form{
+    position:absolute;
+    top: 64rem;
+    left:12.4rem;
+   border:none;
+   
+  
+}
+.header-food-content-name{
+    position:absolute;
+    top: 110rem;
+    left:0;
+    width:28rem;
+    height:6.5rem;
+    border-radius:0 3rem 3rem 0;
+    background-color:var(--color);
+    
+    
+}
+#Rajshahi {
+   color:white;     
+   font-size:30px;
+}
+
+.header-food-content-name div{
+  display:flex;
+  margin-left: 5rem;
+}
+.header-food-form input{
+   
+  font-size:4rem;
+  padding-right: 6rem;
+  padding-top: 2.23rem;
+  padding-bottom: 2.23rem;
+  border: none;
   
 
 }
-.header-img-salat{
+::placeholder{
+   
+  font-size:1.8rem;
+color:  #2E266F;
+padding-left:  3rem;
+
+}
+.header-food-content-go{
+    width:20rem;
+    height:7.2rem;
     position:absolute;
-    top:-150px;
-    left:150px;
+
+        top: 1rem;
+        left:34rem;
+        font-size:1.8rem;
+        background-color: var(--color);
+        text-align: center;
+        border-top-left-radius: 10rem;
+       text-align: center;
 }
-.header-img-salat img{
-    width: 400px;
+.header-food-content-go div{
+    margin-top: 2rem;
+    font-size: 3rem;
+    color:white;
+    margin-left: 1rem;
 }
-.header-img-batto{
-    width:700px;
+.baner-blog-content-box{
+    width: 2.5rem;
+    min-height: 14rem;
+    background-color: var(--color);
+    margin-left: 13.5rem;
+    display:flex;
+    
 }
-.header-img-batto{
+.baner-blog-content{
+    display: flex;
+   padding-top: 4.9rem;
+}
+.bane-blog{
+    background-color: #FFF5EC;
+   width: 192rem;
+   height:132.8rem  
+   
+}
+.blog-content{
+    font-size: 4.8rem;
+    margin-left: 3rem;
+    color:  #2E266F;
+    width: 63.6rem;
+}
+.blog-content-information{
+    font-size: 14px;
+    line-height: 2.4rem;
+    width:60.6rem;
+    margin-left:15rem;
+}
+.baner-blog-item{
+    margin-top: 15.8rem;
+   
+}
+
+
+
+.baner-blog-item-1{
+    background-image: url(img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: over;
+    height: 63.6rem;
+    color: white;
+    
+    
+    }
+    
+.baner-blog-item-information{
+    position: absolute;
+    top:42.3rem;
+    left: 6rem;
+    Font-size: 24px;
+}
+.baner-blog-item-information-1{
+    position: absolute;
+    top:46.6rem;
+    font-size: 1.4rem;
+    width: 38.6rem;
+    left: 6.1rem;
+}
+
+.baner-blog-item-2 {
+background-color: var(--color);
+position: relative;
+top:38.5rem;
+width: 63.9rem;
+height: 25.3rem;
+border-bottom-left-radius: 2rem;
+border-bottom-right-radius: 2rem;
+opacity: 0.5;
+}
+.baner-blog-item-3_2{
+    background-image: url(img/Rectangle\ 7\ 1.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -63.5rem;
+    left: 67.9rem;
+
+ width: 68rem;
+    height: 63.6rem;
+    color: white;
+    
+}
+.baner-blog-item-Make{
+margin-top:8.815rem;
+margin-bottom: 2rem;
+margin-left:2rem;
+}
+.header-food-content-name img {
+    height:3.2rem;
+}
+.baner-blog-after{
+    background-color: white;
+    position: absolute;
+    top:53.4rem;
+    left:43.1rem;
+    width: 20.8rem;
+    height: 5.8rem;
+    border-radius: 3rem 0rem 0rem 3rem ;
+}
+.baner-blog-after p{
+    color: var(--color);
+    position: absolute;
+    top:0.5rem;
+    left:6.4rem;
+    font-size:1.6rem;
+}
+.baner-blog-after-icon{
+    position: absolute;
+    top:-1rem;
+    left:-40rem;
+    width:4rem;
+   
+}
+.baner-blog-after-icon p{
+    width:20rem;
+    font-size:14px;
+    color:white;
+}
+.baner-blog-after-icon img {
+    margin-top:1.2rem;
+    margin-left: 3rem;
+    width:2rem;
+    height:2.5rem;
+}
+.baner-blog-after_1{
+    background-color: white;
+    position: absolute;
+    top:53.4rem;
+    left:43.1rem;
+    width: 20.8rem;
+    height: 5.8rem;
+    border-radius: 3rem 0rem 0rem 3rem ;
+}
+.baner-blog-after_1 p{
+    color: var(--color);
+    position: absolute;
+    top:0.5rem;
+    left:6.4rem;
+    font-size:1.6rem;
+}
+.baner-blog-after-icon_1 {
+    position: absolute;
+    top:52.6rem;
+    left:6rem;
+    width:11rem;
+    display: flex;
+   
+}
+.baner-blog-after-icon_1 img {
+   
+    
+    width:2rem;
+    height:2.5rem;
+}
+.baner-blog-after-icon_1 p{
+    width:20rem;
+    font-size:14px;
+    color:white;
+    margin-left:1rem;
+}
+.baner-blog-item-Make-1{
+    position: absolute;
+    top:226rem;
+    left:104.4rem;
+}
+.baner-blog-item-Make-2{
+    width:31.6rem;
+    height:5rem;
+    position: absolute;
+    top:192rem;
+    left:131rem;
+}
+.baner-blog-item-Make-3{
+   
+    position: absolute;
+    top:185rem;
+    left:145rem;
+}
+.baner-search-food{
+    width:192rem;
+    height:109rem;
+    background-color: #FFEDDE;
+}
+.baner-search-food {
+    position: relative;
+}
+.baner-search-food  img{
+width: 100rem;
+height: 155.5rem;
+    position: absolute;
+    top:-28rem;
+    left:-34rem;
+}
+.baner-search-food-box  {
+    width:101rem;
+    height:3rem;
+    background-color:#FFF5EC;
+    position: absolute;
+    top:-3rem;
+    left:-0rem;
+}
+
+.search-food-class-1{
+    position: relative;
+}
+.baner-search-food-baner{
+    width:123rem;
+    height:56rem;
+    position: absolute;
+    top:26.6rem;
+    left:26rem;
+    background-color: white;
+}
+.baner-search-food-baner-box{
+    background-color:var(--color);
+    width:23rem;
+    height:1.5rem;
+  position: absolute;
+  top:10rem;
+  left:57rem;
+    
+}
+.baner-search-food-banner-content{
+    position: absolute;
+    font-family: Poppins;
+    top:14.5rem;
+    left:52.6rem;
+    font-size:3.6rem;   
+    line-height:2.4rem;
+    color: #2E266F;
+    font-family: 500;
+    width:31.9rem; height:3.1rem;
+}
+ 
+.baner-search-food-banner-input{
+    position: absolute;
+    
+    top:23.6rem;
+    left:41.3rem;
+    width:54.4rem; height   :9rem;
+   
+}
+.baner-search-food-banner-input input{
+    width:54.4rem; height   :9rem;
+    font-size:16px;
+    color:  #2E266F;
+    border:none;
+    
+}
+ ::placeholder {
+    font-size:16px;
+    color:  #2E266F;
+}
+.baner-search-food-go{
+    background-color: var(--color);
+    width:12.8rem; height:6.2rem;   
+    color: white;
     position:absolute;
-    top:20px;
-    left:-10px;
+    top: 1.4rem;
+    right:1.4rem;
 }
-.header-img-batto img{
-    width: 100%
+.baner-search-food-go div  {
+    font-size:3rem;
+    margin-left: 3.9rem;margin-top: 1.6rem;;
 }
-.header-input{
+.baner-search-food-banner-information-date{
+    width: 9.5rem;
+    height:5.4rem;
+    position: absolute;
+    top:38.6rem;left :50rem;
+    color: #2E266F;
+    font-size: 1.6rem;  
+
+}
+.baner-search-food-banner-information-date div {
+    font-size:1.6rem;
+    padding-top: 1rem;
+    color: #2E266F;
+    opacity: 0.6;   
+
+}
+.baner-search-food-banner-information-date img{
+    width:1rem;
+    height:0.7rem;
+    position: absolute;
+    top:1rem;left :4rem;
+}
+.baner-search-food-banner-information-time{
+    width: 9.5rem;
+    height:5.4rem;
+    position: absolute;
+    top:38.6rem;left :66.5rem;
+    color: #2E266F;
+    font-size: 1.6rem;  
+}
+.baner-search-food-banner-information-time img{
+    width:1rem;
+    height:0.7rem;
+    position: absolute;
+    top:1rem;left :4rem;
+}
+.baner-search-food-banner-information-time div {
+    font-size:1.6rem;
+    padding-top: 1rem;
+    color: #2E266F;
+    opacity: 0.6;
+}
+.baner-search-food-banner-information-Guest{
+    width: 9.5rem;
+    height:5.4rem;
+    position: absolute;
+    top:38.6rem;left :80rem;
+    color: #2E266F;
+    font-size: 1.6rem;  
+}
+.baner-search-food-banner-information-Guest img{
+    width:1rem;
+    height:0.7rem;
+    position: absolute;
+    top:1rem;left :5rem;
+}
+.baner-search-food-banner-information-Guest div {
+    font-size:1.6rem;
+    padding-top: 1rem;
+    color: #2E266F;
+    opacity: 0.6;
+}
+.baner-search-food-baner-vector img{
+    width:31.595rem;
+    height:4.982rem;
+    position: absolute;
+    top:84.6rem;
+    left:42rem;
+}
+.baner-search-food-baner-vector img:nth-child(2){
+    width:31.595rem;
+    height:4.982rem;
+    position: absolute;
+    top:19rem;
+    left:124.5rem;
+}
+.baner-search-food-baner-vector img:nth-child(3){
+    height:31.595rem;
+    width:4.982rem;
+    position: absolute;
+    top:26.5rem;
+    left:151rem;
+}
+.baner-search-food-baner-vector img:nth-child(4){
+    height:61rem;
+    /* width:62rem; */
+    position: absolute;
+    top:26.5rem;
+    left:161rem;
+}
+.baner-Ourserices-box{
+    background-color:#FFF5EC;
+    width:192rem;
+    height:18.4rem;
+    position: absolute;
+    top:109rem;;
+    left:0;
+}
+.baner-Ourserices{
+    background-color:#FFF5EC;
+    width:192rem;
+    height:127rem;
+    position: absolute;
+    top:127rem;
+    left:0;
+}
+.baner-Ourserices-header div:nth-child(1){
+    position: absolute;
+    top:0;
+    left:11rem;
+    width:2.5rem;
+    height:14rem;
+    background-color:var(--color);
+}
+.baner-Ourserices-content-1{
+    position: absolute;
+    top:3.7rem;
+    left:16rem;
+    font-size:4.8rem;
+    color:  #707070;
+
+
+}
+.baner-Ourserices-content-2{
+    position: absolute;
+    top:3.7rem;
+    left:68.2rem;
+    width:60.9rem;
+    height:14.1rem;
+    font-size:1.4rem;
+}
+.baner-Ourserices-background {
+    background-image: url(img/Vector\ our.png);
+    width:187.9rem; 
+    height:96.2rem;
+    position: absolute;
+    top:27rem;
+}
+.baner-Ourserices-background-table_1 {
+    width:39rem;
+    height:38rem;
+
+}
+.baner-Ourserices-background-table_1  +div{
+    position: absolute;
+    top: 11rem;left: 11rem;
+    width:39rem;
+    height:38rem;
+    background-color: #FFEDDE;
+
+
+}
+.baner-Ourserices-background-table_1  >div {
+    position: absolute;
+    top: 20rem;left: 68rem;
+    width:19.9rem;
+    height:19.9rem;
+    color:var(--color);
+    line-height: 3.4rem;
+ 
+
+}
+
+.baner-Ourserices-background-table_1  img {
+    position: absolute;
+    top: 11rem;left: 11rem;
+    width:19.9rem;
+    height:19.9rem;
+    color:var(--color);
+
+
+}
+.baner-Ourserices-background-table_2 {
+    width:39rem;
+    height:38rem;
+
+}
+.baner-Ourserices-background-table_2  >div{
+    position: absolute;
+    top: 37rem;left: 48rem;
+    width:39rem;
+    height:38rem;
+    background-color: #FFEDDE;
+
+}
+.baner-Ourserices-background-table_3 {
+    width:67rem;
+   
+
+}
+.baner-Ourserices-background-table_3  div{
+    position: absolute;
+    top: 12.1rem;left: 108.9rem;
+    width:67rem;
+    height:75.8rem;
+    background-color: #FFEDDE;  
+
+}
+.baner-Ourserices-background-table_1_information{
+    width:20.9rem;height:5.8rem;
+}
+.baner-Ourserices-background-table_1_information p{
+   font-size:2.4rem;color:#2E266F;
+
+}
+.baner-Ourserices-background-table_1_information-box{
     position:absolute;
-    top:639px;
-    left:69px;
+    top:7.6rem;
+    left:8.7rem;
+   width:8.3rem;height:0.3rem;
+    background-color: var(--color);
 }
-.header-input input{
-  padding:20px;
-  border-color:white;
+.baner-Ourserices-background-table_1_information-box-arrow{
+    position:absolute;
+    top:46.6rem;
+    left:38.7rem;
+    width: 18.2rem;height:1rem;
+}
+.baner-Ourserices-background-table_1_information-box-arrow img{
+    position:absolute;
+    top:7.6rem;
+    left:8.7rem;
+    width: 18.2rem;height:1rem;
+}
+.baner-Ourserices-background-table_1_information-box-arrow img:nth-child(2){
+    position:absolute;
+    top:48.6rem;
+    left:3.7rem;
+    width: 18.2rem;height:1rem;
+}
+#abc >img{
+    position: absolute;
+    top:21rem;
+    left:20.5rem;
+    width: 19rem;height: 19rem;
+}
+#abc img:nth-child(2){
+    position: absolute;
+    top:62.5rem;
+    left:68rem;
+    width: 19.9rem;height: 15.2rem;
+}
+#abc img:nth-child(3){
+    position: absolute;
+    top:22.5rem;
+    left:126.5rem;
+    width: 32.2rem;height: 24.2rem;
+}
+.baner-Ourserices-background-table_2_information {
+    width:20.9rem;height:5.8rem;
+}
+#adc{
+    position: absolute;
+    top:64.5rem;
+    left:15.5rem;
+}
+#adc div:nth-child(1){
+    color: #2E266F; 
+    font-size:2.4rem;
+
+}
+#adc div:nth-child(1) div{
+    margin-left: 10.5rem;;
+
+}
+#adc div:nth-child(2) {
+    width:8.4rem;   
+    height:0.3rem; 
+    background-color:var(--color);
+    position:absolute;
+    top:4.2rem  ;
+    left:0;
+
+}
+
+#adc div:nth-child(3){
+    font-size:1.4rem;   
+    width: 20rem;
+    margin-top: 2rem;
+
+}
+#apc {
+    position: absolute;
+    top:62.5rem;
+    left:131.5rem; 
+}
+#apc div:nth-child(1){
+    font-size:2.4rem;
+    color: #2E266F;
+    width: 22rem
+}
+#apc div:nth-child(2){
+    font-size:1.4rem;
+    color: #707070;
+    margin-top:2rem;
+    width: 22rem;
+    margin-left:2rem;
+}
+#apc div:nth-child(3){
+    width: 192px;
+height: 3px;
+background-color: var(--color);
+margin-top:2rem;
+}
+.baner-food-items{
+    position: relative;
+    top:254rem;
+   
+    background-color:#FFF5EC;
+    height:168rem;
+}
+.baner-food-items-content{
+    position: absolute;
+    top:15rem;
+ 
+   display: block;
+   
+   font-size: 4.8rem;
+   color: #2E266F;
+   
+   left:74.9rem;
+   
+
+}
+.baner-food-items-content-information{
+    position: absolute;
+    top:24rem;
+    font-size:1.4rem;
+    width:60.9rem;
+    left:50%;   
+    transform: translate(-50%);
+    text-align: center;
+}
+.baner-food-items-items >div:nth-child(1){
+    position: absolute;
+    top:35.5rem;    
+    left:10.9rem;
+    width:53rem;
+    height:55.2rem;
+  
+}
+.baner-food-items-items div:nth-child(1) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+.food-item-1{
+    position: absolute;
+    top:40rem;
+    background-color: rgb(240, 240, 240);
+    width:53rem;
+    height: 15rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.food-item-1 div:nth-child(1){
+    font-size:2.4rem;
+    position: absolute;
+    left:3rem;
+    top:3rem;
+}
+.food-item-1 div:nth-child(3){
+    font-size:1.4rem;
+    position: absolute;
+    left:3rem;
+    top:7rem;
+    color:  #707070;
+width:28.9rem;
+}
+.food-item-1 div:nth-child(2){
+    font-size:2.4rem;
+    position: absolute;
+    right:3rem;
+    top:3rem;
+    color:  var(--color);
+
+}
+.food-item-2{
+    position: absolute;
+    top:40rem;
+    background-color: rgb(240, 240, 240);
+    width:53rem;
+    height: 15rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.food-item-2 div:nth-child(1){
+    font-size:2.4rem;
+    position: absolute;
+    left:3rem;
+    top:3rem;
+}
+.food-item-2 div:nth-child(3){
+    font-size:1.4rem;
+    position: absolute;
+    left:3rem;
+    top:7rem;
+    color:  #707070;
+width:28.9rem;
+}
+.food-item-2 div:nth-child(2){
+    font-size:2.4rem;
+    position: absolute;
+    right:3rem;
+    top:3rem;
+    color:  var(--color);
+
+}
+/**/
+.baner-food-items-items >div:nth-child(2){
+    position: absolute;
+    top:35.5rem;    
+    left:69rem;
+    width:53rem;
+    height:55.2rem;
+    
+}
+.baner-food-items-items div:nth-child(2) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+.baner-food-items-items >div:nth-child(3){
+    position: absolute;
+    top:35.5rem;    
+    left:127rem;
+    width:53rem;
+    height:55.2rem;
+    
+}
+.baner-food-items-items div:nth-child(3) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+.baner-food-items-items >div:nth-child(4){
+    position: absolute;
+    top:100rem;    
+    left:127rem;
+    width:53rem;
+    height:55.2rem;
+    
+}
+.baner-food-items-items div:nth-child(4) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+.baner-food-items-items >div:nth-child(5){
+    position: absolute;
+    top:100rem;    
+    left:69rem;
+    width:53rem;
+    height:55.2rem;
+
+}
+.baner-food-items-items div:nth-child(5) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+.baner-food-items-items >div:nth-child(6){
+    position: absolute;
+    top:100rem;    
+    left:11rem;
+    width:53rem;
+    height:55.2rem;
+   
+}
+.baner-food-items-items div:nth-child(6) img{
+ 
+    position: absolute;
+    top:0em;   
+    width:53rem;
+    height:40.3rem;
+    left:0rem;
+}
+#dowapp{
+    position: absolute;
+    top:168rem;  
+    width: 192rem;
+    height:109rem;
+    background-color: #FFEDDE;
+
+}
+.dowapp-left  .box{
+    width:2.5rem;height:14rem;
+    background-color: var(--color);
+    position: absolute;
+    left:13.5rem;
+    top:39rem;
+}
+.dowapp-left {
+    height:30rem;
+}
+.dowapp-content{
+    position: absolute;
+    left:19.9rem;
+    top:39.9rem;
+    font-size:4.8rem;
+    width: 47.8rem;
+    color:   #2E266F;
+
+}
+.dowapp-content_2{
+    font-size:1.4rem;
+    position: absolute;
+    left:19.9rem;
+    top:51.1rem;
+    width:44.9rem;
+    color: #707070;
+    line-height:2.4rem;
+
+}
+.dowapp-logo div:nth-child(1){
+    position: absolute;
+    top:65.2rem;
+    left:19.9rem;
+    width:17.8rem;
+    height:7.8rem;
+    background-color:black;
+    border-radius:1.5rem;
+}
+.dowapp-logo div:nth-child(1)  img{
+    position: absolute;
+    top:2rem;
+    left:2.2rem;
+    width:3rem;
+    height:3.4rem;
+    background-color:black;
+    border-radius:1.5rem;
+}
+
+.dowapp-logo div:nth-child(2)  {
+    position: absolute;
+    top:65.5rem;
+    left:27rem;
+    width:3rem;
+    height:3.4rem;
+ 
  
 }
 
-.header-from-input{
-    position:relative;
-   
-}
-
-.header-from-input button{
-    position:absolute;
-    top:-15px;
-    right:0px;
-    background-color:var(--color);
-    width: 131px;
-    padding:5px 0;
-    border-top-left-radius: 100px;
-    color: aliceblue;
-    border-color: white;
-    
-  
-}
-.header-from-input p{
-    font-size :30px;
-    margin:0px;
-    padding-left: 20px;
-    padding-top: 3px;
-}
-
-.header-reajshahi{
-    position:absolute;
-    top: 892px;
-    display: flex;
-    background-color:var(--color);
-    width:160px;
-    padding-left: 20px;
+.dowapp-logo div:nth-child(2)  p:nth-child(1){
     color:white;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    font-size:1.2rem;
+    width:10rem;
 }
-.header-reajshahi i{ 
-  width: 20px; height:20px;margin-top:15px;
+.dowapp-logo div:nth-child(2)  p:nth-child(2){
+    color:white;
+    font-size:1.6rem;
+    width:10rem;
 }
-.header-reajshahi p { 
- font-size:20px;
- margin-left: 10px;;
+.dowapp-logo-2 div:nth-child(1){
+    position: absolute;
+    top:65.2rem;
+    left:39.7rem;
+    width:17.8rem;
+    height:7.8rem;
+    background-color:black;
+    border-radius:1.5rem;
 }
-.header-reajshahi-icon{
-    width:80px;
-  position:absolute;
-  top:912px;
-   left:1150px;
-    display:flex;
-    justify-content: space-between;
+.dowapp-logo-2 div:nth-child(1)  img{
+    position: absolute;
+    top:2rem;
+    left:2.2rem;
+    width:3rem;
+    height:3.4rem;
+    background-color:black;
+    border-radius:1.5rem;
 }
-.header-reajshahi-icon i{
-  width:45px;
-  height:45px;
-  font-size:30px;
-  margin-left:82px;
+
+.dowapp-logo-2 div:nth-child(2)  {
+    position: absolute;
+    top:65.5rem;
+    left:47rem;
+    width:3rem;
+    height:3.4rem;
+ 
+ 
+}
+.dowapp-logo-2 div:nth-child(2)  p:nth-child(1){
+    color:white;
+    font-size:1.2rem;
+    width:10rem;
+}
+.dowapp-logo-2 div:nth-child(2)  p:nth-child(2){
+    color:white;
+    font-size:1.6rem;
+    width:10rem;
+}
+.dowapp-right img:nth-child(1){
+    position: absolute;
+    top:13.2rem;left:87.4rem  ;
+    height:83.6rem;
+    width:74.5rem;
+}
+.dowapp-right img:nth-child(2){
+    position: absolute;
+    top:29.1rem;
+    left:74.5rem  ;
+    width: 677px;
+height: 687px;
+transform: rotate(-15.33deg)
+}
+.dowapp-right img:nth-child(3){
+    position: absolute;
+    top:1rem;
+    left:102.5rem  ;
+    width: 65.3rem;
+    height: 114.4rem;
+}
+.dowapp-right img:nth-child(4){
+    position: absolute;
+    top:9rem;
+    left:120.5rem  ;
+    width: 40.8rem;
+    height: 87.5rem;
+}
+.dowapp-right div{
+    position: absolute;
+    top:8rem;
+    left:133.5rem  ;
+    width:15.8rem;
+    height: 2.1rem;
+    background-color:white;
+    border-radius:2rem;
+}
+.footer{
+    position:absolute;
+    top:277rem;
+    width:192rem;height:102.6rem;
+    background-color:#FFF5EC;
+}   
+.footer img:nth-child(1){
+    position:absolute;
+    top:10rem;
+    left: 0;
+    width:74.5rem;height:76.4rem;
+  
+}   
+.footer img:nth-child(2){
+    position:absolute;
+    top:6rem;
+    left:0;
+    width:75rem;height:96.3rem;
+   
+}   
+.footer-conntent div:nth-child(1){
+    position:absolute;
+    top:27.2rem;
+    left:88rem;
+    color: #2E266F;
+    font-size: 4.8rem;
+
+}
+.footer-conntent div:nth-child(2){
+    position:absolute;
+    top:34.2rem;
+    left:69.4rem;
+    color: #2E266F;
+    font-size: 4.8rem;
+
+}
+.footer-conntent div:nth-child(3){
+    position:absolute;
+    top:42.2rem;
+    left:69.4rem;
+    color: #707070;
+width: 53.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+.footer-conntent div:nth-child(4) input{
+    position:absolute;
+    top:48.7rem;
+    left:70.5rem;
+    color: #707070;
+width: 53.4rem;
+    font-size: 1.4rem;
+    text-align: center;
+width: 54.4rem;
+height: 10rem;
+border-radius: 5rem;
+}
+.footer-conntent div:nth-child(4) input::placeholder{
+    color:#2E266F;
+    padding-right: 40rem;;
+
+}
+.footer-conntent div:nth-child(5) {
+    position:absolute;
+    top:51.3rem;
+    left:117.3rem;
+    width: 5.6rem;
+    height: 5.6rem;
+  background-color:var(--color);
+    border-radius: 5rem;
+}
+.footer-conntent div:nth-child(6) div{
+    position:absolute;
+    top:64.6rem;
+    left:76rem;
+    width: 43.4rem;
+    height: 2.8rem;
+    font-size:1.6rem;
+    color:  #707070;
+    
+}
+.footer-conntent div:nth-child(6)  div:nth-child(2){
+  
+    position:absolute;
+    top:64.6rem;
+    left:88rem;
+    font-size:1.4rem;
+    
+    
+}
+.footer-conntent div:nth-child(6)  div:nth-child(3){
+  
+    position:absolute;
+    top:64.6rem;
+    left:82rem;
+
+    
+    
+}
+.footer-conntent div:nth-child(6)  div:nth-child(4){
+  
+    position:absolute;
+    top:64.6rem;
+    left:112rem;
+
+    
+    
+}
+.footer img:nth-child(4){
+    position:absolute;
+    top:78.513rem;
+    left:132.5rem;
+    width:14.82rem;
+    height: 1.828rem;
+}
+.footer img:nth-child(5){
+    position:absolute;
+    top:78.8rem;
+    left:157.0rem;
+    width:1.5rem;
+    height: 1.4rem;
+}
+.bmn{
+    position:absolute;
+    top:86.3rem;
+    left:155.8rem;
+    width:19.7rem;
+    height: 1.6rem;
+    font-size:1.4;
+    color:black;
+}
+
+@keyframes animation{
+    to{
+        top:0rem;
+        left:0;
+        background-color:var(--color)
+    }
+    from{
+
+    }
 }
